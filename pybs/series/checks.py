@@ -6,16 +6,16 @@ from scipy import sparse
 from scipy.sparse.linalg import lsqr
 import numpy as np
 
-from pybs.utils import memoized
-from pybs.combinations import empty_tree, symp_split
-from pybs.unordered_tree import \
+from utils import memoized
+from combinations import empty_tree, symp_split
+from unordered_tree import \
     tree_generator, \
     number_of_tree_pairs_of_total_order as m, \
     trees_of_order, \
     leaf, \
     the_trees, \
     number_of_trees_of_order
-from pybs.series import \
+from series import \
     exponential, adjoint, \
     modified_equation, \
     tree_pairs_of_order

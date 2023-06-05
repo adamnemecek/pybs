@@ -5,8 +5,8 @@ from copy import copy
 from itertools import count as _count
 from functools import reduce
 
-from pybs.utils import ClonableMultiset, generate_forest, tikz2svg
-from pybs.unordered_tree import treeType, number_of_trees_up_to_order
+from utils import ClonableMultiset, generate_forest, tikz2svg
+from . import treeType, number_of_trees_up_to_order
 
 
 class UnorderedTree(ClonableMultiset):

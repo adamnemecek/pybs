@@ -1,4 +1,4 @@
-from pybs.unordered_tree import trees_of_order
+from unordered_tree import trees_of_order
 
 
 def tree_pairs_of_order(order, sort=False):

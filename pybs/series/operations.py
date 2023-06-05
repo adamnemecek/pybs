@@ -1,15 +1,15 @@
 from fractions import Fraction
 from math import factorial
 
-from pybs.utils import memoized2 as memoized, LinearCombination
-from pybs.unordered_tree import leaf
-from pybs.combinations import \
+from utils import memoized2 as memoized, LinearCombination
+from unordered_tree import leaf
+from combinations import \
     empty_tree, \
     split, \
     subtrees, \
     antipode_ck, \
     tree_commutator as tree_commutator
-from pybs.series import \
+from series import \
     BseriesRule, \
     VectorfieldRule, \
     ForestRule, \

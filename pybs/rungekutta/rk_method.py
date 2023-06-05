@@ -4,9 +4,9 @@ import numpy as np
 from functools import reduce
 
 
-from pybs.utils import memoized as memoized
-from pybs.combinations import empty_tree
-from pybs.series import BseriesRule, exponential, equal_up_to_order
+from utils import memoized as memoized
+from combinations import empty_tree
+from series import BseriesRule, exponential, equal_up_to_order
 #  Note the use of dtype=object. It allows for exact algebra.
 #  However it is much slower since numpy will call Python code.
 

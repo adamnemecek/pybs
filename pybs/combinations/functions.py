@@ -1,8 +1,7 @@
 from itertools import product
-from pybs.utils import memoized2 as memoized, LinearCombination
-from pybs.unordered_tree import UnorderedTree, leaf
-from pybs.combinations import Forest as Forest
-from pybs.combinations import empty_tree
+from utils import memoized2 as memoized, LinearCombination
+from unordered_tree import UnorderedTree, leaf
+from combinations import Forest as Forest, empty_tree
 
 
 @memoized

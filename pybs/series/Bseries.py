@@ -1,8 +1,8 @@
 from fractions import Fraction
 
-from pybs.utils import LinearCombination
-from pybs.combinations import empty_tree, Forest
-from pybs.unordered_tree import UnorderedTree, leaf
+from utils import LinearCombination
+from combinations import empty_tree, Forest
+from unordered_tree import UnorderedTree, leaf
 
 
 class BseriesRule(object):

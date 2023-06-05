@@ -1,5 +1,5 @@
 # This Python file uses the following encoding: utf-8
-from pybs.utils import ClonableMultiset
+from utils import ClonableMultiset
 
 
 class Forest(ClonableMultiset):
