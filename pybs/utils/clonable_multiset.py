@@ -2,7 +2,7 @@ from copy import copy
 from itertools import repeat as _repeat, chain as _chain, starmap as _starmap
 import functools
 import heapq as _heapq
-from collections import Mapping as _Mapping
+from collections.abc import Mapping as _Mapping
 from operator import itemgetter as _itemgetter, __add__ as _add
 
 from .clonable import Clonable

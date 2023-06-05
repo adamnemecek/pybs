@@ -1,8 +1,6 @@
 # This Python file uses the following encoding: utf-8
-from collections import \
-    Hashable as _Hashable
+from collections.abc import Hashable as _Hashable
 from functools import partial as _partial, wraps
-
 
 # Copied from https://wiki.python.org/moin/PythonDecoratorLibrary#Memoize
 class memoized(object):

@@ -94,7 +94,7 @@ def subtrees(tree):
         return result
     tmp = [subtrees(child_tree) for child_tree in tree.elements()]
     # TODO: more efficient looping.
-    # TODO: The multiplicities in "tree" are accounted for by "elements()".    
+    # TODO: The multiplicities in "tree" are accounted for by "elements()".
     tmp = [elem.items() for elem in tmp]  # TODO: Try using iterators.
     for item in product(*tmp):  # iterator over all combinations.
         tensorproducts, factors = zip(*item)
@@ -187,7 +187,8 @@ def _subtrees_for_antipode(tree):
     :math:`\emptyset \otimes \tau`.
     """
     result = LinearCombination()
-    tmp = [subtrees(child_tree) for child_tree in tree.elements()]  # TODO: more efficient looping.
+    # TODO: more efficient looping.
+    tmp = [subtrees(child_tree) for child_tree in tree.elements()]
     if tmp:
         tmp = [elem.items() for elem in tmp]  # TODO: Try using iterators.
         for item in product(*tmp):  # iterator over all combinations.
